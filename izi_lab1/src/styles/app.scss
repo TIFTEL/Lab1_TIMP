@@ -1,0 +1,34 @@
+
+* {
+    margin: 3px;
+    padding: 2px;
+    box-sizing: border-box;
+    background-color: #F5F5F5;
+}
+
+.Name{
+    padding:10px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+#root{
+    display: flex;
+    justify-content: center;
+}
+
+.Inputbox   {
+    border-radius: 1px;
+    box-shadow: 0 0 0 8px rgba(0,0,0,0.3);
+    box-sizing: border-box;
+    padding: 55px;
+    display: flex;
+
+}
+.Works{
+    margin-top: 50px;
+    border-radius: 1px;
+    box-shadow: 0 0 0 8px rgba(0,0,0,0.3);
+    padding: 55px;
+}
