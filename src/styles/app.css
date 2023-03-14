@@ -1,0 +1,73 @@
+
+* {
+    margin: 3px;
+    padding: 2px;
+    box-sizing: border-box;
+    background-color: #F5F5F5;
+}
+
+.Name{
+    padding:10px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+#root{
+    display: flex;
+    justify-content: center;
+}
+
+.task{
+    font-size: 20px;
+    border-radius: 10px;
+    border: 1px solid #858585;
+    padding: 8px;
+}
+.completed{
+    color: #858585;
+    border: 1px solid #858585 !important;
+}
+.Inputbox{
+    display: flex;
+    width: 300px;
+    border-radius: 20px;
+    border: 1px solid #c2c2c2;
+}
+.input, .Works{
+    border-radius: 20px;
+    border: 1px solid black;
+    padding: 8px;
+
+}
+.submit {
+    border-radius: 20px;
+    border: 1px solid black;
+    padding: 8px;
+}
+.clearList {
+    margin-top: 10px;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 5px;
+    width: 69px;
+}
+.Circle{
+    margin-left: 220px;
+    margin-top: -22px;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: 1px solid red;
+
+}
+.Circle:hover{
+    cursor: pointer;
+    border: 1px solid #cccccc;
+}
+.Circle:active{
+    background-color: lawngreen;
+
+}
