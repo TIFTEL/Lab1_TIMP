@@ -4,9 +4,6 @@ const Post = () => {
     const [posts, setPosts]=useState([])
     const [completed, setCompleted] = useState([])
     const[title,setTitle]=useState('')
-    const paint=()=>{
-
-    }
     const clearPosts=()=>{
         setPosts([])
         setCompleted([])
@@ -38,7 +35,7 @@ const Post = () => {
                         {
                             posts.map((el, id) => <div onClick={() => changeCompleted(id)} className={completed[id]? "task completed" : "task"} key={id}>{el}
 
-                                <button onClick={paint}className="Circle"> </button>
+
                             </div>)
                         }
                     </div>
